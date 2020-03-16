@@ -27,7 +27,7 @@ def foobar(n):
 
 def createFoobar():
 
-    n = int(input ("Introduce n numbers to analize: "))
+    n = int(input ("Introduce n numbers to analize... "))
 
     foobar(n)
 
