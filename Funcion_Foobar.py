@@ -7,19 +7,21 @@ def foobar(n):
 
         if (i%3==0) and (i%5==0):
 
-            print("Foobar")
+            position = "Foobar"
 
         elif (i%3==0) and (i%5!=0):
 
-            print("Foo")
+            position = "Foo"
 
         elif (i%3!=0) and (i%5==0):
 
-            print("Bar")
+            position = "Bar"
 
         else:
 
-            print(i)
+            position = i
+
+        print (position)
 
 
 
